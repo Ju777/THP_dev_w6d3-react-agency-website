@@ -12,17 +12,17 @@ function Works(){
             <div id="study-cases-container">
                 <div className='study-case-card'>
                     <h5>PLATON</h5>
-                    <button className='btn btn-warning'><Link to ="/works/platon-study-case">VOIR</Link></button>
+                    <Link to ="/works/platon-study-case"><button className='btn btn-dark'>VOIR</button></Link>
                 </div>
 
                 <div className='study-case-card'>
                     <h5>SOLANE</h5>
-                    <button className='btn btn-warning'><Link to ="/works/solane-study-case">VOIR</Link></button>
+                    <Link to ="/works/solane-study-case"><button className='btn btn-dark'>VOIR</button></Link>
                 </div>
 
                 <div className='study-case-card'>
                     <h5>SEDAL</h5>
-                    <button className='btn btn-warning'><Link to ="/works/sedal-study-case">VOIR</Link></button>
+                    <Link to ="/works/sedal-study-case"><button className='btn btn-dark'>VOIR</button></Link>
                 </div>
             </div>
         </div>
