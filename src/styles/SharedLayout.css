@@ -5,4 +5,11 @@
     background-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
+    height: 13vh;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
 }

@@ -8,8 +8,9 @@ function Work(){
     const [ workToDisplay, setWorkToDisplay ] = useState(worksList.find(work => work.slug === workSlug));
     
     return(
-        <div id="">
-            <h1>Current page : WORK {workToDisplay.name}</h1>
+        <div className='page-container'>
+            {/* <h1>Current page : WORK {workToDisplay.name}</h1> */}
+            <h1>{workToDisplay.name}</h1>
             <h3>{workToDisplay.title}</h3>
             <p>{workToDisplay.description}</p>
         </div>
