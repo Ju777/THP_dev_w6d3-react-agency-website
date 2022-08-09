@@ -4,6 +4,7 @@
 ### The instruction is to use dynamic routing + React context. A switching dark/light mode is expected by using localStorage to save the user choice, in order for user to get the setting back each time the website is visited.
 
 #### How to use this repo ?
+    - Either you can browse https://thp-dev-w6d3-react-agency-website.vercel.app/ or, 
     - Clone this repo in your local computer.
     - Go in the repo directory and :
         - launch 'npm install' + enter.
