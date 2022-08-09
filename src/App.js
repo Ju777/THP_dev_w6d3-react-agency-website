@@ -25,11 +25,13 @@ function App() {
       <div className = {currentTheme} >
         <BrowserRouter>
           <Routes>
-            <Route path = "/" element = {<SharedLayout/>}>
-              <Route index element = {<Home/>}/>
-              <Route path = "/about" element = {<About/>}/>
-              <Route path = '/works' element = {<Works/>}/>
-              <Route path = '/works/:workSlug' element = {<Work/>}/>
+             <Route path = "/" element = {<SharedLayout/>}>
+
+                <Route index element = {<Home/>}/>
+                <Route path = "/about" element = {<About/>}/>
+                <Route path = '/works' element = {<Works/>}/>
+                <Route path = '/works/:workSlug' element = {<Work/>}/>
+
             </Route>
           </Routes>
         </BrowserRouter>
