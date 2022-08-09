@@ -44,7 +44,7 @@ function SharedLayout(){
                     onClick = { (e) => handleClick(e) }
                     className = 'btn btn-outline-light'
                 >
-                 { theme === "light" ? <small>DARK MODE</small> : <small>LIGHT MODE</small> }
+                 { theme === "light" ? "DARK MODE" : "LIGHT MODE" }
                 </button>
             </nav>
             {/* "theme" = {theme} */}
