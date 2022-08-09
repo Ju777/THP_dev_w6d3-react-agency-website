@@ -36,9 +36,9 @@ function SharedLayout(){
     return(
         <div id="navbar-page-container">
             <nav id="navbar">
-                <div><button className='btn btn-light'><Link to ="/" className='link'>Home</Link></button></div>
-                <div><button className='btn btn-light'><Link to ="/about" className='link'>About</Link></button></div>
-                <div><button className='btn btn-light'><Link to ="/works" className='link'>Works</Link></button></div>
+                <div><Link to ="/" className='link'><button className='btn btn-light'>Home</button></Link></div>
+                <div><Link to ="/about" className='link'><button className='btn btn-light'>About</button></Link></div>
+                <div><Link to ="/works" className='link'><button className='btn btn-light'>Works</button></Link></div>
                 <button
                     value = {theme}
                     onClick = { (e) => handleClick(e) }
