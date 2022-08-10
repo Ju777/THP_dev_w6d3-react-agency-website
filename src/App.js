@@ -6,7 +6,7 @@ import SharedLayout from './components/SharedLayout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Works from './pages/Works';
-import Work from './components/Work';
+import StudyCase from './components/StudyCase';
 
 import ThemeContext from './contexts/ThemeContext';
 
@@ -30,7 +30,7 @@ function App() {
                 <Route index element = {<Home/>}/>
                 <Route path = "/about" element = {<About/>}/>
                 <Route path = '/works' element = {<Works/>}/>
-                <Route path = '/works/:workSlug' element = {<Work/>}/>
+                <Route path = '/works/:studyCaseSlug' element = {<StudyCase/>}/>
 
             </Route>
           </Routes>
